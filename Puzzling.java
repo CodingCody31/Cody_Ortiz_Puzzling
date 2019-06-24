@@ -33,6 +33,7 @@ public class Puzzling {
 	public void shufAlph(Character[] arrAbc) {
 		List<Character> newAlph = Arrays.asList(arrAbc);
 		Collections.shuffle(newAlph);
+		System.out.println(newAlph.get(newAlph.size()-1));
 		System.out.println(newAlph.get(0));
 		char test = newAlph.get(0);
 		if(test == 'a' || test == 'e' || test == 'i' || test ==  'o' || test ==  'u')
